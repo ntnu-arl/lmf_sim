@@ -6,7 +6,7 @@ repositories:
   src/planning/deep_collision_predictor:
     type: git
     url: git@github.com:ntnu-arl/deep_collision_predictor.git
-    version: dev/deep_ensemble
+    version: dev/thin_vae_2
   src/planning/lmf_planner_srvs_msgs:
     type: git
     url: git@github.com:ntnu-arl/lmf_planner_srvs_msgs.git

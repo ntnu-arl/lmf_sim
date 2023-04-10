@@ -6,20 +6,34 @@ This repository contains everything you need to setup the simulator to train and
 ```bash
 mkdir -p lmf_sim_ws/src && cd lmf_sim_ws/src
 git clone git@github.com:ntnu-arl/lmf_sim.git
+```
+
+If traning ORACLE
+```bash
 vcs import < src/lmf_sim/vcstool/lmf_sim.repos
+```
+
+If traning A-ORACLE
+```bash
+vcs import < src/lmf_sim/vcstool/lmf_sim_attentive.repos
+```
+
+If traning seVAE-ORACLE
+```bash
+vcs import < src/lmf_sim/vcstool/lmf_sim_sevae.repos
 ```
 
 ## Build
 
 ```bash
 cd lmf_sim_ws
-catkin config -DCMAKE_BUILD_TYPE=Release
+catkin config -DCMAKE_BUILD_TYPE=Release --blacklist deep_collision_predictor rotors_hil_interface
 catkin build
 ```
 
-## Handling of the .repo file
+## Handling of the .repo files
 
 ```bash
-cd rmf_obelix_ws
-vcs export > src/lmf_sim/vcstool/lmf_sim.repos
+cd lmf_sim_ws
+vcs export > src/lmf_sim/vcstool/FILE_NAME.repos
 ```
