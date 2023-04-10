@@ -1,0 +1,25 @@
+repositories:
+  src/lmf_sim:
+    type: git
+    url: git@github.com:ntnu-arl/lmf_sim.git
+    version: master
+  src/planning/deep_collision_predictor:
+    type: git
+    url: git@github.com:ntnu-arl/deep_collision_predictor.git
+    version: dev/deep_ensemble
+  src/planning/lmf_planner_srvs_msgs:
+    type: git
+    url: git@github.com:ntnu-arl/lmf_planner_srvs_msgs.git
+    version: main
+  src/simulate/ign_gazebo_resources:
+    type: git
+    url: git@github.com:ntnu-arl/ign_gazebo_resources.git
+    version: master
+  src/simulate/rmf_sim:
+    type: git
+    url: git@github.com:ntnu-arl/rmf_sim.git
+    version: deep_collision_predictor
+  src/simulate/rotors_simulator:
+    type: git
+    url: git@github.com:ntnu-arl/rotors_simulator.git
+    version: dev/vel_yaw_command
