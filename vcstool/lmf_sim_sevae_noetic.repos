@@ -11,6 +11,10 @@ repositories:
     type: git
     url: git@github.com:ntnu-arl/lmf_planner_srvs_msgs.git
     version: main
+  src/planning/verifiable_learning:
+    type: git
+    url: git@github.com:ntnu-arl/verifiable_learning.git
+    version: temp_latest_branch
   src/simulate/ign_gazebo_resources:
     type: git
     url: git@github.com:ntnu-arl/ign_gazebo_resources.git
@@ -22,7 +26,7 @@ repositories:
   src/simulate/rotors_simulator:
     type: git
     url: git@github.com:ntnu-arl/rotors_simulator.git
-    version: dev/vel_yaw_command
+    version: dev/vel_yaw_command_noetic
   src/misc/mav_comm:
     type: git
     url: git@github.com:ethz-asl/mav_comm.git

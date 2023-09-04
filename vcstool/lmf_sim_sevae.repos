@@ -1,64 +1,12 @@
 repositories:
-  build/grpc/grpc_build:
-    type: git
-    url: https://github.com/grpc/grpc.git
-    version: e5276ec369342e0069f71c3354df9eac69ae3f07
   src/lmf_sim:
     type: git
     url: git@github.com:ntnu-arl/lmf_sim.git
     version: master
-  src/mapping/catkin_boost_python_buildtool:
-    type: git
-    url: git@github.com:ethz-asl/catkin_boost_python_buildtool.git
-    version: master
-  src/mapping/catkin_grpc:
-    type: git
-    url: git@github.com:CogRob/catkin_grpc.git
-    version: master
-  src/mapping/catkin_simple:
-    type: git
-    url: git@github.com:catkin/catkin_simple.git
-    version: master
-  src/mapping/eigen_catkin:
-    type: git
-    url: git@github.com:ethz-asl/eigen_catkin.git
-    version: master
-  src/mapping/eigen_checks:
-    type: git
-    url: git@github.com:ethz-asl/eigen_checks.git
-    version: master
-  src/mapping/gflags_catkin:
-    type: git
-    url: git@github.com:ethz-asl/gflags_catkin.git
-    version: master
-  src/mapping/glog_catkin:
-    type: git
-    url: git@github.com:ethz-asl/glog_catkin.git
-    version: master
-  src/mapping/minkindr:
-    type: git
-    url: git@github.com:ethz-asl/minkindr.git
-    version: master
-  src/mapping/minkindr_ros:
-    type: git
-    url: git@github.com:ethz-asl/minkindr_ros.git
-    version: master
-  src/mapping/numpy_eigen:
-    type: git
-    url: git@github.com:ethz-asl/numpy_eigen.git
-    version: master
-  src/mapping/protobuf_catkin:
-    type: git
-    url: git@github.com:ethz-asl/protobuf_catkin.git
-    version: master
-  src/mapping/voxblox:
-    type: git
-    url: git@github.com:ntnu-arl/voxblox.git
-    version: dev/attentive_oracle_evaluate
   src/planning/deep_collision_predictor:
     type: git
     url: git@github.com:ntnu-arl/deep_collision_predictor.git
-    version: dev/thin_vae_2
+    version: dev/deep_ensemble_refactor
   src/planning/lmf_planner_srvs_msgs:
     type: git
     url: git@github.com:ntnu-arl/lmf_planner_srvs_msgs.git
@@ -78,4 +26,7 @@ repositories:
   src/simulate/rotors_simulator:
     type: git
     url: git@github.com:ntnu-arl/rotors_simulator.git
-    version: dev/vel_yaw_command_opencv4
+    version: dev/vel_yaw_command
+  src/misc/mav_comm:
+    type: git
+    url: git@github.com:ethz-asl/mav_comm.git

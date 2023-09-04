@@ -22,7 +22,7 @@ repositories:
   src/simulate/rotors_simulator:
     type: git
     url: git@github.com:ntnu-arl/rotors_simulator.git
-    version: dev/vel_yaw_command
+    version: dev/vel_yaw_command_noetic
   src/misc/mav_comm:
     type: git
     url: git@github.com:ethz-asl/mav_comm.git
