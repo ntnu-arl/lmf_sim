@@ -10,20 +10,20 @@ git clone git@github.com:ntnu-arl/lmf_sim.git
 
 If traning ORACLE
 ```bash
-vcs import < src/lmf_sim/vcstool/lmf_sim.repos (ROS Melodic + OpenCV 3)
-vcs import < src/lmf_sim/vcstool/lmf_sim_noetic.repos (ROS Noetic + OpenCV 4)
+vcs import < src/lmf_sim/vcstool/lmf_sim.repos # ROS Melodic + OpenCV 3
+vcs import < src/lmf_sim/vcstool/lmf_sim_noetic.repos # ROS Noetic + OpenCV 4
 ```
 
 If traning A-ORACLE
 ```bash
-vcs import < src/lmf_sim/vcstool/lmf_sim_attentive.repos (ROS Melodic + OpenCV 3)
-vcs import < src/lmf_sim/vcstool/lmf_sim_attentive_noetic.repos (ROS Noetic + OpenCV 4)
+vcs import < src/lmf_sim/vcstool/lmf_sim_attentive.repos # ROS Melodic + OpenCV 3
+vcs import < src/lmf_sim/vcstool/lmf_sim_attentive_noetic.repos # ROS Noetic + OpenCV 4
 ```
 
 If traning seVAE-ORACLE
 ```bash
-vcs import < src/lmf_sim/vcstool/lmf_sim_sevae.repos (ROS Melodic + OpenCV 3)
-vcs import < src/lmf_sim/vcstool/lmf_sim_sevae_noetic.repos (ROS Noetic + OpenCV 4)
+vcs import < src/lmf_sim/vcstool/lmf_sim_sevae.repos # ROS Melodic + OpenCV 3
+vcs import < src/lmf_sim/vcstool/lmf_sim_sevae_noetic.repos # ROS Noetic + OpenCV 4
 ```
 
 ## Build
