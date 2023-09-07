@@ -63,14 +63,10 @@ repositories:
     type: git
     url: git@github.com:ntnu-arl/lmf_planner_srvs_msgs.git
     version: main
-  src/simulate/ign_gazebo_resources:
-    type: git
-    url: git@github.com:ntnu-arl/ign_gazebo_resources.git
-    version: master
   src/simulate/rmf_sim:
     type: git
     url: git@github.com:ntnu-arl/rmf_sim.git
-    version: deep_collision_predictor
+    version: deep_collision_predictor_refactor
   src/simulate/rotors_simulator:
     type: git
     url: git@github.com:ntnu-arl/rotors_simulator.git
