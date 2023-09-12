@@ -74,3 +74,11 @@ repositories:
   src/misc/mav_comm:
     type: git
     url: git@github.com:ethz-asl/mav_comm.git
+  src/perception/darknet_ros:
+    type: git
+    url: git@github.com:ntnu-arl/darknet_ros.git
+    version: dev/attentive_oracle_evaluate
+  src/perception/visual_saliency_ros:
+    type: git
+    url: git@github.com:ntnu-arl/visual_saliency_ros.git
+    version: attentive_oracle_evaluate

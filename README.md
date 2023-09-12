@@ -8,19 +8,23 @@ mkdir -p lmf_sim_ws/src && cd lmf_sim_ws/src
 git clone git@github.com:ntnu-arl/lmf_sim.git
 ```
 
-If traning ORACLE
+If traning/testing ORACLE
 ```bash
 vcs import < src/lmf_sim/vcstool/lmf_sim.repos # ROS Melodic + OpenCV 3
 vcs import < src/lmf_sim/vcstool/lmf_sim_noetic.repos # ROS Noetic + OpenCV 4
 ```
 
-If traning A-ORACLE
+If traning/testing A-ORACLE
 ```bash
 vcs import < src/lmf_sim/vcstool/lmf_sim_attentive.repos # ROS Melodic + OpenCV 3
 vcs import < src/lmf_sim/vcstool/lmf_sim_attentive_noetic.repos # ROS Noetic + OpenCV 4
+cd src/perception/visual_saliency_ros
+git submodule update --init --recursive
+cd src/perception/darknet_ros
+git submodule update --init --recursive
 ```
 
-If traning seVAE-ORACLE
+If traning/testing seVAE-ORACLE
 ```bash
 vcs import < src/lmf_sim/vcstool/lmf_sim_sevae.repos # ROS Melodic + OpenCV 3
 vcs import < src/lmf_sim/vcstool/lmf_sim_sevae_noetic.repos # ROS Noetic + OpenCV 4
