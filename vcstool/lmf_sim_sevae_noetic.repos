@@ -3,10 +3,9 @@ repositories:
     type: git
     url: git@github.com:ntnu-arl/lmf_sim.git
     version: master
-  src/planning/deep_collision_predictor:
+  src/planning/ORACLE:
     type: git
-    url: git@github.com:ntnu-arl/deep_collision_predictor.git
-    version: dev/deep_ensemble_refactor
+    url: git@github.com:ntnu-arl/ORACLE.git
   src/planning/lmf_planner_srvs_msgs:
     type: git
     url: git@github.com:ntnu-arl/lmf_planner_srvs_msgs.git
@@ -15,10 +14,9 @@ repositories:
     type: git
     url: git@github.com:ntnu-arl/verifiable_learning.git
     version: temp_latest_branch
-  src/simulate/rmf_sim:
+  src/simulate/lmf_gazebo_models:
     type: git
-    url: git@github.com:ntnu-arl/rmf_sim.git
-    version: deep_collision_predictor_refactor
+    url: git@github.com:ntnu-arl/lmf_gazebo_models.git
   src/simulate/rotors_simulator:
     type: git
     url: git@github.com:ntnu-arl/rotors_simulator.git
