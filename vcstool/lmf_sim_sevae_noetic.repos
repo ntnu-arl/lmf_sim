@@ -10,10 +10,9 @@ repositories:
     type: git
     url: git@github.com:ntnu-arl/lmf_planner_srvs_msgs.git
     version: main
-  src/planning/verifiable_learning:
+  src/planning/sevae:
     type: git
-    url: git@github.com:ntnu-arl/verifiable_learning.git
-    version: temp_latest_branch
+    url: git@github.com:ntnu-arl/sevae.git
   src/simulate/lmf_gazebo_models:
     type: git
     url: git@github.com:ntnu-arl/lmf_gazebo_models.git
