@@ -35,7 +35,7 @@ vcs import < src/lmf_sim/vcstool/lmf_sim_sevae_noetic.repos # ROS Noetic + OpenC
 ```bash
 sudo apt-get install ros-${ROS_DISTRO}-octomap-msgs ros-${ROS_DISTRO}-octomap-ros
 cd lmf_sim_ws
-catkin config -DCMAKE_BUILD_TYPE=Release --blacklist rotors_hil_interface
+catkin config -DCMAKE_BUILD_TYPE=Release --blacklist deep_collision_predictor rotors_hil_interface
 catkin build
 ```
 
